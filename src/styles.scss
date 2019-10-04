@@ -24,21 +24,9 @@ html {
     background-color: rgba(255, 255, 255, 0.4);
 }
 
-// html{
-//     direction: rtl; //right to left
-// }
-
 .container{
     display: flex;
-    flex-flow: row wrap;
-
-
-    border: 5px solid white;
-    width: 500px;
+    align-items: flex-end;
+    height: 300px;
 }
 
-// @media (min-width: 56.25em){ //altera a disposição para limha caso a tela tenha pelo menos 900px
-//     .container{
-//         flex-direction: row; 
-//     }
-// }
