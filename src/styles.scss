@@ -25,31 +25,4 @@ html {
 }
 
 
-/*MENU RESPONSIVO*/
-
-.menu{
-    display: flex;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    flex-wrap: wrap;
-}
-
-    .menu-item{
-        flex: 1 1 200px;
-        margin: 5px;
-        padding: 0;
-
-        display: flex;
-        align-content: center;
-        justify-content: center;
-    }
-        .menu-link{
-            color:#fff;
-            display: block;
-            padding: 20px;
-            text-decoration: none;
-        }
-
-
 
