@@ -26,17 +26,10 @@ html {
 
 .container{
     display: flex;
-    width: 400px;
-    border: 5px solid white;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
-.container div{
-    margin: 0;
-    padding: 0;
-    width: 150px;
-    flex-shrink: 1;
-}
-
-.container div:nth-child(1){
-    flex-shrink: 2;
+.container main{
+    flex: 1;
 }
