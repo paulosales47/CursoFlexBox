@@ -24,47 +24,32 @@ html {
     background-color: rgba(255, 255, 255, 0.4);
 }
 
-/*
-1) header, 3 colunas e footer
-2) Colunas de tamanho igual
-3) Rodapé fixo
-4) Conteúdo primeiro no HTML
-5) Marcação mínima
-*/
 
-.container{
+/*MENU RESPONSIVO*/
+
+.menu{
     display: flex;
-    flex-direction: column;
-    min-height: 100vh;    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
 }
 
-.content{
-    display: flex;
-    flex: 1;
-    flex-direction: column;;
-}
+    .menu-item{
+        flex: 1 1 200px;
+        margin: 5px;
+        padding: 0;
 
-.main{
-    flex:1;
-}
-
-.content aside{
-    flex-basis: 100px;
-}
-
-/*SOMENTE DEMARCAÇÃO*/
-.content * {
-    border: 1px solid white;
-}
-
-
-@media (min-width: 900px){
-    .content{
-        flex-direction: row;
+        display: flex;
+        align-content: center;
+        justify-content: center;
     }
+        .menu-link{
+            color:#fff;
+            display: block;
+            padding: 20px;
+            text-decoration: none;
+        }
 
-    .sidebar{
-        order: -1;
-    }
-}
+
 
